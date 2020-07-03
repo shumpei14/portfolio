@@ -84,6 +84,22 @@ body {
   padding-right: 100px;
 }
 
+.img-text-wrapper .subtitle {
+  transition: 1s;
+  color: transparent;
+}
+
+.image-blur {
+  transition: 1s;
+  filter: brightness(10%);
+}
+
+.img-text-wrapper:hover .subtitle {
+  color: lightseagreen;
+  font-weight: 600;
+}
+
+
 .logo-wrapper img {
 	width: 50px;
 	margin-bottom: 20px;
@@ -98,12 +114,23 @@ body {
 	color: lightgreen;
 }
 
-.img-darken {
+/*.img-darken {
 	transition: 1s;
 	filter: brightness(10%);
 }
+*/
 
+.profile-image-wrapper img {
+  width: 100%;
+}
 
+.profile-content-wrapper {
+  padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+  color: lightseagreen;
+}
 
 
 
